@@ -7,234 +7,213 @@ import {
   ParabolLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { MdiInstagram } from "@/components/icons/GitHubIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Gladys Giselle",
+  initials: "GSM",
+  location: "Mérida, Yucatán, México",
+  locationLink:
+    "https://www.google.com/maps/place/Merida,+Yucatan/data=!4m2!3m1!1s0x8f56715cab450d17:0x5dfc155715abeb09?sa=X&ved=1t:242&ictx=111",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Creative and results-driven Community Manager with a passion for developing engaging content and fostering online communities.",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      Moderately experienced Community Manager specializing in social media
+      platforms like Instagram, YouTube, and TikTok. Throughout my career, I
+      have developed and executed content strategies that have increased reach
+      and improved engagement within online communities. My approach includes a
+      consistent visual strategy, organic follower growth, and optimized content
+      creation for various digital platforms.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "./image.jpeg",
+  // personalWebsiteUrl: "https://online.flippingbook.com/view/420143740/",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "gladys.gsm97@gmail.com",
+    tel: "+529932071632",
     social: [
       {
-        name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
-        icon: GitHubIcon,
-      },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
-        icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
+        name: "Instagram",
+        url: "https://www.instagram.com/_another.view_?igsh=MTNnd2pjZmJiYjJsZw==",
+        icon: MdiInstagram,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Universidad Anáhuac",
+      degree: "Arquitectura/Lic. en Arquitectura",
+      start: "2016",
+      end: "2021",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
+      company: "Taller Etea",
+      link: "https://www.etea.mx/",
+      badges: ["Instagram", "TikTok", "Adobe", "Youtube"],
+      title: "Community Manager",
       logo: ConsultlyLogo,
-      start: "2024",
+      start: "2021",
       end: null,
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
+          Managed the social media presence for Taller Etea, focusing on growing
+          their online community and enhancing brand engagement.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+              Developed and implemented interactive dynamics with clients and
+              informative posts, achieving a 35% increase in followers within
+              three months.
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
+              Managed the overall social media presence, creating a consistent
+              and engaging visual strategy.
             </li>
             <li>
-              Implementing system-wide monitoring and security improvements
+              Collaborated with team members to enhance customer engagement and
+              satisfaction.
+            </li>
+            <li>
+              Maintained regular communication with followers, fostering a loyal
+              online community.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
+      company: "Dr. Gabriela V. Sánchez",
+      link: "https://www.instagram.com/ginecologa.sanchezvidal?igsh=ZXlldmxscTcyMW9r",
+      badges: ["Instagram", "TikTok", "Adobe"],
+      title: "Community Manager → Social Media Manager",
       logo: ParabolLogo,
       start: "2021",
-      end: "2024",
+      end: "2023",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
+          Spearheaded the digital communication strategy for Dr. Gabriela V.
+          Sánchez, improving patient interaction and online visibility.
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+              Designed and curated informative content to improve communication
+              with patients and promote the doctor’s digital presence.
             </li>
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
+              Increased engagement through targeted social media strategies and
+              personalized content.
             </li>
             <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+              Enhanced the visibility of the medical practice on digital
+              platforms, aligning with the overall marketing objectives.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "Voces Podcast",
+      link: "https://linktr.ee/Voces_Podcast?fbclid=PAZXh0bgNhZW0CMTEAAaZMYwjSutBmqZMko9gN2peKJTBGDaZTk4xurftGPEUwSXu7HlUkltbJ1jQ_aem_yHd_Oct42zH_EBsORXguKA",
+      badges: ["Remote", "TikTok", "Video Edition", "Adobe", "Instagram"],
+      title: "Community Manager → Producer",
       logo: ClevertechLogo,
-      start: "2015",
+      start: "2020",
       end: "2021",
       description: (
         <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
+          Led the social media strategy for Voces Podcast, boosting its digital
+          footprint and audience engagement.
           <ul className="list-inside list-disc">
             <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
+              Planned and executed social media posts that significantly
+              increased the podcast’s visibility and engagement.
             </li>
             <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
+              Created and optimized video content for YouTube, improving search
+              engine presence through SEO and video branding.
             </li>
             <li>
-              Led development teams across multiple successful client projects
+              Launched and managed the TikTok account, implementing innovative
+              content strategies to attract a younger audience and expand the
+              brand’s reach.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
+      company: "Atelier Line",
+      link: "https://www.youtube.com/@atelier.line_1",
+      badges: ["Remote", "Youtube", "TikTok", "Instagram", "Adobe"],
+      title: "Community Manager → Social Media Manager",
       logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      start: "2018",
+      end: "2021",
       description: (
         <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
+          Oversaw the social media strategy for Atelier Line, focusing on
+          enhancing their digital presence and audience engagement.
           <ul className="list-inside list-disc">
             <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
+              Created an appealing visual strategy and developed regular posts,
+              enhancing the brand's social media presence.
             </li>
-            <li>Built and mentored high-performing mobile development team</li>
+            <li>
+              Managed content creation for YouTube, improving SEO and
+              positioning videos on YouTube and Google.
+            </li>
+            <li>
+              Implemented a cohesive social media strategy that boosted audience
+              engagement and brand visibility.
+            </li>
           </ul>
         </>
       ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
     },
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
     "Remote Team Leadership",
+    "Social Media Management",
+    "Content Strategy",
+    "Community Engagement",
+    "Content Creation",
+    "SEO",
+    "Video Editing",
+    "Adobe Creative Suite",
+    "Google Analytics",
+    "TikTok Marketing",
+    "Instagram Marketing",
+    "YouTube Marketing",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "AnotherView",
+      techStack: ["Instagram", "LightRoom", "Premiere Pro"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+        "A collection of my personal photography projects, showcasing my creative vision and style",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label:
+          "https://www.instagram.com/_another.view_?igsh=MTNnd2pjZmJiYjJsZw==",
+        href: "https://www.instagram.com/_another.view_?igsh=MTNnd2pjZmJiYjJsZw==",
       },
     },
     {
-      title: "Consultly",
+      title: "mi.espacio_mx",
       techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
+        "Instagram",
+        "Architecture",
+        "Interior Design",
+        "Industrial Design",
+        "Social Media",
       ],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
+        "Space dedicated to the promotion of architecture, interior design, and industrial design projects",
       logo: ConsultlyLogo,
       link: {
         label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      logo: MonitoLogo,
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        href: "https://www.instagram.com/mi.espacio_mx?igsh=NHJyNXpwcGJtMjYx",
       },
     },
   ],

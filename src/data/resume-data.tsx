@@ -1,18 +1,17 @@
+import { MdiInstagram } from "@/components/icons/GitHubIcon";
 import {
   ClevertechLogo,
   ConsultlyLogo,
   JojoMobileLogo,
   MonitoLogo,
-  NSNLogo,
   ParabolLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-import { MdiInstagram } from "@/components/icons/GitHubIcon";
 
 export const RESUME_DATA = {
   name: "Gladys Giselle",
   initials: "GSM",
   location: "Mérida, Yucatán, México",
+  personalWebsiteUrl: "",
   locationLink:
     "https://www.google.com/maps/place/Merida,+Yucatan/data=!4m2!3m1!1s0x8f56715cab450d17:0x5dfc155715abeb09?sa=X&ved=1t:242&ictx=111",
   about:
@@ -28,7 +27,6 @@ export const RESUME_DATA = {
     </>
   ),
   avatarUrl: "./image.jpeg",
-  // personalWebsiteUrl: "https://online.flippingbook.com/view/420143740/",
   contact: {
     email: "gladys.gsm97@gmail.com",
     tel: "+529932071632",
@@ -157,7 +155,7 @@ export const RESUME_DATA = {
           <ul className="list-inside list-disc">
             <li>
               Created an appealing visual strategy and developed regular posts,
-              enhancing the brand's social media presence.
+              enhancing the brand&apos;s social media presence.
             </li>
             <li>
               Managed content creation for YouTube, improving SEO and
@@ -212,7 +210,7 @@ export const RESUME_DATA = {
         "Space dedicated to the promotion of architecture, interior design, and industrial design projects",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
+        label: "mi.espacio.mx",
         href: "https://www.instagram.com/mi.espacio_mx?igsh=NHJyNXpwcGJtMjYx",
       },
     },
